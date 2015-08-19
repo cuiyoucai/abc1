@@ -11,7 +11,7 @@ namespace HQSWcfService
     {
         /// <summary>
         /// 写的方法，将下载的日志写入本地文件
-        /// </summary>xiugai
+        /// </summary>
         /// <param name="content">传递要写的内容</param>
         public static void Write(string content)
         {
@@ -202,7 +202,7 @@ namespace HQSWcfService
                            select new
                            {
                                data = p,
-                              // index = listFirst.IndexOf(p)
+                               index = listFirst.IndexOf(p)
                            };
 
             var tmpPass = from p in listPass
