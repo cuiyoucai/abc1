@@ -17,7 +17,7 @@ namespace HQSWcfService
         {
             if (System.Configuration.ConfigurationManager.AppSettings["WriteLog"] == "1")
             {
-                //string folderPath = AppDomain.CurrentDomain.BaseDirectory + "\\Log";
+                string folderPath = AppDomain.CurrentDomain.BaseDirectory + "\\Log";
                 string folderPath = "D:\\Log";
                 if (!Directory.Exists(folderPath))
                 {
