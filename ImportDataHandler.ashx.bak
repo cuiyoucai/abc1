@@ -185,7 +185,7 @@ namespace HQSWcfService
                                         try
                                         {
                                             oledbAdapter.Fill(dsHIS.rlt_doctor2queue_type);
-                                             StaticClass.dtDecoding(dsHIS.rlt_doctor2queue_type, SourceRow.description);
+                                            // StaticClass.dtDecoding(dsHIS.rlt_doctor2queue_type, SourceRow.description);
                                         }
                                         catch (Exception ex)
                                         {
